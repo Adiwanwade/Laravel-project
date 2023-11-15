@@ -6,10 +6,19 @@ body {
 }
 
 header {
-    background-color: #333;
+
     color: white;
     text-align: center;
     padding: 1em;
+    background-image: url('/Images/Arijit-Singh 2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+
+
 }
 
 section {
@@ -67,3 +76,5 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+
