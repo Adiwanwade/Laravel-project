@@ -80,7 +80,7 @@ background: #3B5998;
     align-items: left;
     justify-content: left;">Arijit Singh is an Indian playback singer and music composer.</p>
     <p style="font-size:x-large;font-weight:bolder; "><a href="https://www.youtube.com/channel/UCtFOW7jJXChfFNoucRFqRmw" style="text-decoration: none;color:white">Check out his latest music</a> </p>
-    {{-- <img src="{{URL('images/2722.jpeg')}}" alt="Personality Image" style="height: 86.5%;width:95%"> --}}
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script>
@@ -95,6 +95,7 @@ background: #3B5998;
             x1.style.display="none";
           }
         }
+
         </script>
 </header>
 </div>

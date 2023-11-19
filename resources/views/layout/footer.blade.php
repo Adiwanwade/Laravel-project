@@ -1,9 +1,3 @@
-{{-- <footer>
-    <p>&copy; 2023 Famous Personality Website</p>
-</footer> --}}
-
-
-
 
 <section style="background-color: black;padding:70px">
 <div style="  display: flex;

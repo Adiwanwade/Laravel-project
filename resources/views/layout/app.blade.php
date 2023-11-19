@@ -26,15 +26,8 @@
 <body>
 <div class="parallax">
     @include('layout.header')
-    <nav>
-        <a href="#Home">Home</a>
-        <a href="#biography">About Person</a>
-        <a href="#History">History</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#feature">Achievements</a>
-        <a href="#Contact">Contact</a>
+@include('layout.navigation')
 
-    </nav>
 
     <section id="biography">
         <h2 style="padding-bottom: 7px;border-bottom:solid">Bio</h2>

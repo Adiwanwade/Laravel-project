@@ -36,6 +36,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .gallery-image {
@@ -44,6 +45,7 @@ section {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 footer {
@@ -76,5 +78,44 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+.feature{
+min-height: 100vh;
+background: #f9f9f9;
+}
+.feature .card-container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+}
+.feature .card-container .card{
+width: 25rem;
+margin:2rem;
+background: #fff;
+border-radius: .5rem;
+box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+overflow: hidden;
+position: relative;
+}
+.feature .card-container .card img{
+height:18rem;
+width: 100%;
+object-fit: cover;
+}
+.feature .card-container.content{
+padding-bottom: 2rem;
+text-align: center;
+}
+.feature .card-container .content .title{
+color:#333;
+    font-size: 3rem;
+    }
+.feature .card-container.content p{
+    color:#333;
+    font-size: 1.3rem;
+    padding:1rem;
+    }
 
 
