@@ -12,7 +12,7 @@
 {{-- <p>Gallery</p> --}}
 @include('layout.navigation')
 <section id="gallery">
-    <h2 style="padding-bottom: 7px;border-bottom:solid">Gallery</h2>
+    {{-- <h2 style="padding-bottom: 7px;border-bottom:solid">Gallery</h2> --}}
     <br>
     <div class="gallery-image">
         <img src="Images/2022.jpg" alt="Image 1" style="width:100%;height:100%;">
